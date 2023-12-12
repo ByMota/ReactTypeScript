@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import { Checkbox } from './components/Checkbox';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Input id='email' label={'Email'}/>
         <Input id='nome' label={'Nome'}/>
         <Input id='data' label={'Data'} type='date'/>
+        <Checkbox label={'Termos e condições'}/>
     </>
   )
 }
