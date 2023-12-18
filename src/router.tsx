@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import {DateApi} from "./pages/DateApi";
 import {UseEffect} from "./pages/useEffect";
+import {UseRef} from "./pages/useRef";
 
 export function AppRouter() {
   return(
@@ -10,6 +11,7 @@ export function AppRouter() {
         <Route path="/" element={<Home/>}/>
         <Route path="/date-api" element={<DateApi/>}/>
         <Route path="/use-effect" element={<UseEffect/>}/>
+        <Route path="/use-ref" element={<UseRef/>}/>
       </Routes>
     </Router>
   )
