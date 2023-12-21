@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import {DateApi} from "./pages/DateApi";
 import {UseEffect} from "./pages/useEffect";
 import {UseRef} from "./pages/useRef";
+import {CustomHook} from "./pages/customHook";
 
 export function AppRouter() {
   return(
@@ -12,6 +13,7 @@ export function AppRouter() {
         <Route path="/date-api" element={<DateApi/>}/>
         <Route path="/use-effect" element={<UseEffect/>}/>
         <Route path="/use-ref" element={<UseRef/>}/>
+        <Route path="/custom-hook" element={<CustomHook/>}/>
       </Routes>
     </Router>
   )
