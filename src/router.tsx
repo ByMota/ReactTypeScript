@@ -5,6 +5,7 @@ import {UseEffect} from "./pages/useEffect";
 import {UseRef} from "./pages/useRef";
 import {CustomHook} from "./pages/customHook";
 import Fetch from "./pages/Fetch";
+import Context from "./pages/Context";
 
 export function AppRouter() {
   return(
@@ -16,6 +17,7 @@ export function AppRouter() {
         <Route path="/use-ref" element={<UseRef/>}/>
         <Route path="/custom-hook" element={<CustomHook/>}/>
         <Route path="/fetch" element={<Fetch/>}/>
+        <Route path="/context" element={<Context/>}/>
       </Routes>
     </Router>
   )
