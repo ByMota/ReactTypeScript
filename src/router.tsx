@@ -6,6 +6,7 @@ import {UseRef} from "./pages/useRef";
 import {CustomHook} from "./pages/customHook";
 import Fetch from "./pages/Fetch";
 import Context from "./pages/Context";
+import Form from "./pages/Form";
 
 export function AppRouter() {
   return(
@@ -18,6 +19,7 @@ export function AppRouter() {
         <Route path="/custom-hook" element={<CustomHook/>}/>
         <Route path="/fetch" element={<Fetch/>}/>
         <Route path="/context" element={<Context/>}/>
+        <Route path="/form" element={<Form/>} />
       </Routes>
     </Router>
   )
